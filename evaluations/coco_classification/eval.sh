@@ -2,7 +2,7 @@
 
 resume=$1
 model_id=${2:-0}
-data_root=${3:-"/home/hashmat/Code/Projects/InDomain_Adversaries/dataset_utils/coco/"}
+data_root=${3:-"/home/Code/Projects/InDomain_Adversaries/dataset_utils/coco/"}
 output_directory=${4:-"./results_new"}
 
 # Define the model choices
