@@ -214,7 +214,7 @@ for k,v in seg_labels.items():
 for image_info in data["images"]:
     image_id = image_info["id"]
     image_name = image_info["file_name"]
-    image_path = os.path.join("/home/hashmat/Downloads/Coco_2017/archive/val2017", image_name)
+    image_path = os.path.join("/home/Downloads/Coco_2017/archive/val2017", image_name)
     image = cv2.imread(image_path)
     if image_id not in seg_labels_:
         continue
