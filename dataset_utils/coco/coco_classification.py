@@ -96,8 +96,8 @@ def save_annotated_image(image_path, ann_info, class_id):
     cv2.imwrite(full_path, img)
 
 
-image_paths = glob.glob("/home/hashmat/Downloads/Coco_2017/archive/val2017/*")
-file = open("/home/hashmat/Downloads/Coco_2017/archive/annotations/instances_val2017.json")
+image_paths = glob.glob("/home/Downloads/Coco_2017/archive/val2017/*")
+file = open("/home/Downloads/Coco_2017/archive/annotations/instances_val2017.json")
 data = json.load(file)
 
 id_to_image_name = get_image_name_from_id(data)
