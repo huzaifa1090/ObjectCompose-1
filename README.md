@@ -2,9 +2,6 @@
 
 
 
-
-
-
 > **Abstract:** *Given the large-scale multi-modal training of recent vision-based models and their generalization capabilities, understanding the extent of their robustness is critical for their real-world deployment. In this work, we evaluate the resilience of current vision-based models against diverse object-to-background context variations. The majority of robustness evaluation methods have introduced synthetic datasets to induce changes to object characteristics (viewpoints, scale, color) or utilized image transformation techniques (adversarial changes, common corruptions) on real images to simulate shifts in distributions. Recent works have explored leveraging large language models and diffusion models to generate changes in the background. However, these methods either lack in offering control over the changes to be made or distort the object semantics, making them unsuitable for the task. Our method, on the other hand, can induce diverse object-to-background changes while preserving the original semantics and appearance of the object. To achieve this goal, we harness the generative capabilities of text-to-image, image-to-text, and image-to-segment models to automatically generate a broad spectrum of object-to-background changes. We induce both natural and adversarial background changes by either modifying the textual prompts or optimizing the latents and textual embedding of text-to-image models. This allows us to quantify the role of background context in understanding the robustness and generalization of deep neural networks. We produce various versions of standard vision datasets (ImageNet, COCO), incorporating either diverse and realistic backgrounds into the images or introducing color, texture, and adversarial changes in the background. We conduct extensive experiment to analyze the robustness of vision-based models against object-to-background context variations across diverse tasks.* 
 
 
@@ -42,8 +39,8 @@
    conda create -n objcomp python==3.11.3
    conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
    pip install -r requirements.txt
-   pip install git+XXXX
-   pip install git+XXXX
+   pip install git+https://github.com/openai/CLIP.git
+   pip install git+https://github.com/huggingface/transformers.git
    ```
 `diffusers==0.18.2` is used in this codebase.
 
@@ -108,24 +105,24 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](XXXX)     |
-| Class Name   | [Link](XXXX)     |
-| BLiP Caption | [Link](XXXX)     |
-| Color        | [Link](XXXX)     |
-| Texture      | [Link](XXXX)     |
-| Adversarial  | [Link](XXXX)     |
+| Original     | [Link](https://drive.google.com/drive/folders/1Eqs9J18d-wqpIvq8KMulnsK1ROYF0Uv7?usp=sharing)     |
+| Class Name   | [Link](https://drive.google.com/drive/folders/1V593X8t9UQQYf5VQX8KLt_98EiVKHmAu?usp=sharing)     |
+| BLiP Caption | [Link](https://drive.google.com/drive/folders/1XbyrUS4NepU07rXoDBPSd7lmm266S3RB?usp=sharing)     |
+| Color        | [Link](https://drive.google.com/drive/folders/1KruMwkf-dZ0MFkgkj7Jctk_w1zs-z62W?usp=sharing)     |
+| Texture      | [Link](https://drive.google.com/drive/folders/19mp_b5Fl0GMojwtR3pN93DDq0V5s5QLh?usp=sharing)     |
+| Adversarial  | [Link](https://drive.google.com/drive/folders/1m_LbKfv_UJOzhvfFMWDStE9l53bQJ5HX?usp=sharing)     |
 
 </td>
 <td>
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](XXXX)     |
-| Class Name   | [Link](XXXX)     |
-| BLiP Caption |  [Link](XXXX)    |
-| Color        | [Link](XXXX)     |
-| Texture      | [Link](XXXX)     |
-| Adversarial  | [Link](XXXX)     |
+| Original     | [Link](https://drive.google.com/drive/folders/1XGzYzPSjFvf3CXdOj3sI9Jm2X7Z60S25?usp=sharing)     |
+| Class Name   | [Link](https://drive.google.com/drive/folders/1hC25T3z1vEa0cb08fRl5vtoWTUg8B592?usp=sharing)     |
+| BLiP Caption |  [Link](https://drive.google.com/drive/folders/13daLoIJQSzsocX1unwa4_dj3SMFb512i?usp=sharing)    |
+| Color        | [Link](https://drive.google.com/drive/folders/1s5gDNosZK36fLFs0dsQ0Nr78F0XPGC9R?usp=sharing)     |
+| Texture      | [Link](https://drive.google.com/drive/folders/1bgB-0OcJ8_deckKXCZwphnhry_UAXh6w?usp=sharing)     |
+| Adversarial  | [Link](https://drive.google.com/drive/folders/1m_LbKfv_UJOzhvfFMWDStE9l53bQJ5HX?usp=sharing)     |
 
 </td>
 
@@ -134,22 +131,22 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](XXXX)     |
-| BLiP Caption | [Link](XXXX)     |
-| Color        | [Link](XXXX)     |
-| Texture      |  [Link](XXXX)    |
-| Adversarial  | [Link](XXXX)     |
+| Original     | [Link](https://drive.google.com/drive/folders/1yHAPUZ3qyxQM_TRrAdUGx3Vkvd9bWxF5?usp=sharing)     |
+| BLiP Caption | [Link](https://drive.google.com/drive/folders/1AI_rAwszy_3WiXc0O7WRz1aecthcTfVy?usp=sharing)     |
+| Color        | [Link](https://drive.google.com/drive/folders/1XLMk2ewzZh59mTovpwzIMpzuBIsW4uej?usp=sharing)     |
+| Texture      |  [Link](https://drive.google.com/drive/folders/1OkxgED2pGEGDZ7c-3CA_j5GUAfoT7yiL?usp=sharing)    |
+| Adversarial  | [Link](https://drive.google.com/drive/folders/1A-43BlPSs3cV97Adczv74AJaPJScuj15?usp=sharing)     |
 
 </td>
 <td>
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](XXXX)     |
-| BLiP Caption | [Link](XXXX)     |
-| Color        | [Link](XXXX)     |
-| Texture      | [Link](XXXX)     |
-| Adversarial  | [Link](XXXX)     |
+| Original     | [Link](https://drive.google.com/drive/folders/1p-ZXRXB4a92P0cUfZwGMu6L192as5BZZ?usp=sharing)     |
+| BLiP Caption | [Link](https://drive.google.com/drive/folders/1IpAcP7-oi_Eb67WlotxiyzzJLx-1-Zxm?usp=sharing)     |
+| Color        | [Link](https://drive.google.com/drive/folders/1u3-apoz-leI-xowGeZpQVUuoORMVPFRU?usp=sharing)     |
+| Texture      | [Link](https://drive.google.com/drive/folders/12nmZCNv9Rsa_9zD5N08rm5NMo40XoqUz?usp=sharing)     |
+| Adversarial  | [Link](https://drive.google.com/drive/folders/1w6D7rVEvejlrkfY61IXmlYkUPiYLJcr2?usp=sharing)     |
 
 </td>
 </tr>
@@ -162,7 +159,7 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 <tr valign="top">
 <td>
 
-**1. [ImageNet-E (CVPR-2023)](XXXX)**
+**1. [ImageNet-E (CVPR-2023)](https://arxiv.org/abs/2303.17096)**
 
 | Category                    |      Link       |
 |:----------------------------|:---------------:|
@@ -174,7 +171,7 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 </td>
 <td>
 
-**2. [LANCE (NeurIPS-2023)](XXXX)**
+**2. [LANCE (NeurIPS-2023)](https://arxiv.org/abs/2305.19164)**
 
 | Category                       |   Link   |
 |:----------------------------|:--------:|
@@ -205,7 +202,7 @@ This will evaluate the dataset on:
 Download the adversarial and stylized pretrained models from the respective links and save them in the `pretrained_models` folder. 
 1. Adversarial Pretrained Models 
   
-    Download from [here](XXXX).
+    Download from [here](https://huggingface.co/madrylab/robust-imagenet-models).
       - `resnet50_l2_eps0.ckpt`
       - `resnet50_linf_eps0.5.ckpt`
       - `resnet50_linf_eps2.0.ckpt`
@@ -213,7 +210,7 @@ Download the adversarial and stylized pretrained models from the respective link
       - `resnet50_linf_eps8.0.ckpt`
 2. Stylised Pretrained Models
         
-   Download from [here](XXXX).
+   Download from [here](https://github.com/Muzammal-Naseer/IPViT/tree/main).
    - `deit_s_sin_dist.pth`
    - `deit_t_sin_dist.pth`
    - `deit_t_sin.pth`
@@ -233,7 +230,7 @@ Creating COCO classification dataset and Training/evaluating on classification m
 1. Pass the image folder and annotation path in the dataset_utils/coco/coco_classification.py file
 2. This would create two folders: one with images belonging to different classes and the other folder with masks of images belonging to different classes.
 
-COCO-DC (classification) dataset for training classifiers can be downloaded from [here](XXXX)
+COCO-DC (classification) dataset for training classifiers can be downloaded from [here](https://drive.google.com/drive/folders/1WeLor6jhR7QG1BEvvvSgzRud62h5sdvR?usp=sharing)
 
 After downloading the dataset, run the following command to train classification models:
 
@@ -242,7 +239,7 @@ cd evaluations/coco_classification
 
 python train.py /path/to/images/folder --pretrained --num-classes 80
 ```
-Pretrained weights of available models can be downloaded from [here](XXXX)
+Pretrained weights of available models can be downloaded from [here](https://drive.google.com/drive/folders/1OLslQ2nhLxLW1lrhitd15vsmGrLP6qgH?usp=sharing)
 
 - `resnet50`
 - `vit_tiny_patch16_224`
@@ -274,9 +271,9 @@ This will evaluate the dataset on across different CLIP models.
 
 ### 3. Detection On COCO-DC Dataset
 
-Use the [DETR codebase](XXXX) to evaluate the detection models on COCO-DC dataset. Run the following command:
+Use the [DETR codebase](https://github.com/facebookresearch/detr) to evaluate the detection models on COCO-DC dataset. Run the following command:
 ```
-python main.py --batch_size 2 --no_aux_loss --eval --resume XXXX --coco_path /path/to/dataset --output_dir /path/to/output/dir 
+python main.py --batch_size 2 --no_aux_loss --eval --resume https://dl.fbaipublicfiles.com/detr/detr-r50-e632da11.pth --coco_path /path/to/dataset --output_dir /path/to/output/dir 
 
 ```
 
@@ -331,6 +328,5 @@ Results across CLIP models on background variations across ImageNet-B_1k dataset
 
 
 
-
 ## References
-Our code is based on [diffusers](XXXX) and [DiffAttack](XXXX). We thank them for open-sourcing their codebase.
+Our code is based on [diffusers](https://github.com/huggingface/diffusers) and [DiffAttack](https://github.com/windvchen/diffattack). We thank them for open-sourcing their codebase.
