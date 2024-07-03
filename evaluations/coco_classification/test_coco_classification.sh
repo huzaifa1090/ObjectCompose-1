@@ -1,6 +1,6 @@
 #!/bin/sh
 
-data_path=${1:-"/home/hashmat/Downloads/Coco_2017/coco_classification/images"}
+data_path=${1:-"/home/Downloads/Coco_2017/coco_classification/images"}
 model_id=$2
 output_directory=$3
 
