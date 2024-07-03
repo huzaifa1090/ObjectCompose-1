@@ -84,11 +84,11 @@ def save_annotated_image(image_path, ann_info, class_id):
 
     # save image
     file_name = image_path.split("/")[-1]
-    path = f"/home/hashmat/Downloads/Coco_2017/coco_class/{class_id}"
+    path = f"/home/Downloads/Coco_2017/coco_class/{class_id}"
     if not os.path.exists(path):
         os.makedirs(path, exist_ok=True)
     full_path = os.path.join(path, file_name)
-    mask_path= f"/home/hashmat/Downloads/Coco_2017/coco_class_masks/{class_id}"
+    mask_path= f"/home/Downloads/Coco_2017/coco_class_masks/{class_id}"
     if not os.path.exists(mask_path):
         os.makedirs(mask_path, exist_ok=True)
     mask_full_path = os.path.join(mask_path, file_name)
