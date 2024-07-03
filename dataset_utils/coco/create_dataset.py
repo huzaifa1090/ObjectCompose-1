@@ -85,9 +85,9 @@ def save_annotated_image(image_path, ann_info):
     cv2.imwrite(f"./data/{file_name}", img)
 
 coco_path = "/home/hashmat/Downloads/Coco_2017/archive/val2017"
-image_paths = glob.glob("/home/hashmat/Downloads/Coco_2017/filtered/images_with_masks/*")
+image_paths = glob.glob("/home/Downloads/Coco_2017/filtered/images_with_masks/*")
 
-save_folder = "/home/hashmat/Downloads/Coco_2017/filtered/images/"
+save_folder = "/home/Downloads/Coco_2017/filtered/images/"
 for image_path in image_paths:
     filename = image_path.split("/")[-1]
     orig_image_path = os.path.join(coco_path, filename)
