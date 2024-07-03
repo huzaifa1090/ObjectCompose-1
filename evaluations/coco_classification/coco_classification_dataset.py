@@ -424,7 +424,7 @@ if __name__ == "__main__":
         transforms.ToTensor()
     ])
 
-    root = "/home/hashmat/Downloads/Coco_2017/coco_classification/images/train"
+    root = "/home/Downloads/Coco_2017/coco_classification/images/train"
     dataset = CocoClassification(root, transform=transform)
     # load dataloader
     import torch
