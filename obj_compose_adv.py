@@ -30,7 +30,7 @@ def get_parser():
     parser.add_argument('--save_dir', default="output", type=str,
                         help='Where to save the adversarial examples, and other results')
     parser.add_argument('--dataset', default="imagenet", type=str, choices=["imagenet", "coco_classification"])
-    parser.add_argument('--data_path', default="/l/users/muhammad.huzaifa/866/dataset/filtered_images_resized", type=str,
+    parser.add_argument('--data_path', default="/l/users//866/dataset/filtered_images_resized", type=str,
                         help='The clean images root directory')
     parser.add_argument('--images_per_class', default=10000000, type=int)
 
