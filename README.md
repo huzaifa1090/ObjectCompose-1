@@ -92,6 +92,8 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 ##  Datasets
 <sup>([top](#contents))</sup>
 
+Note: The generated datasets link will be made publically available after the submission reviews.
+
 ### Background Generation by ObjectCompose
  <table>
 <tr>
