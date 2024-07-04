@@ -232,16 +232,15 @@ Creating COCO classification dataset and Training/evaluating on classification m
 1. Pass the image folder and annotation path in the dataset_utils/coco/coco_classification.py file
 2. This would create two folders: one with images belonging to different classes and the other folder with masks of images belonging to different classes.
 
-COCO-DC (classification) dataset for training classifiers can be downloaded from [here](https://drive.google.com/drive/folders/1WeLor6jhR7QG1BEvvvSgzRud62h5sdvR?usp=sharing)
 
-After downloading the dataset, run the following command to train classification models:
+
 
 ```
 cd evaluations/coco_classification
 
 python train.py /path/to/images/folder --pretrained --num-classes 80
 ```
-Pretrained weights of available models can be downloaded from [here](https://drive.google.com/drive/folders/1OLslQ2nhLxLW1lrhitd15vsmGrLP6qgH?usp=sharing)
+Pretrained weights of available models will be publicly available after we get manuscript reviews.
 
 - `resnet50`
 - `vit_tiny_patch16_224`
