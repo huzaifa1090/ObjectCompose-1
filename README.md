@@ -105,24 +105,24 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](https://drive.google.com/drive/folders/1Eqs9J18d-wqpIvq8KMulnsK1ROYF0Uv7?usp=sharing)     |
-| Class Name   | [Link](https://drive.google.com/drive/folders/1V593X8t9UQQYf5VQX8KLt_98EiVKHmAu?usp=sharing)     |
-| BLiP Caption | [Link](https://drive.google.com/drive/folders/1XbyrUS4NepU07rXoDBPSd7lmm266S3RB?usp=sharing)     |
-| Color        | [Link](https://drive.google.com/drive/folders/1KruMwkf-dZ0MFkgkj7Jctk_w1zs-z62W?usp=sharing)     |
-| Texture      | [Link](https://drive.google.com/drive/folders/19mp_b5Fl0GMojwtR3pN93DDq0V5s5QLh?usp=sharing)     |
-| Adversarial  | [Link](https://drive.google.com/drive/folders/1m_LbKfv_UJOzhvfFMWDStE9l53bQJ5HX?usp=sharing)     |
+| Original     | [Link]()    |
+| Class Name   | [Link]()     |
+| BLiP Caption | [Link]()     |
+| Color        | [Link]()     |
+| Texture      | [Link]()     |
+| Adversarial  | [Link]()     |
 
 </td>
 <td>
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](https://drive.google.com/drive/folders/1XGzYzPSjFvf3CXdOj3sI9Jm2X7Z60S25?usp=sharing)     |
-| Class Name   | [Link](https://drive.google.com/drive/folders/1hC25T3z1vEa0cb08fRl5vtoWTUg8B592?usp=sharing)     |
-| BLiP Caption |  [Link](https://drive.google.com/drive/folders/13daLoIJQSzsocX1unwa4_dj3SMFb512i?usp=sharing)    |
-| Color        | [Link](https://drive.google.com/drive/folders/1s5gDNosZK36fLFs0dsQ0Nr78F0XPGC9R?usp=sharing)     |
-| Texture      | [Link](https://drive.google.com/drive/folders/1bgB-0OcJ8_deckKXCZwphnhry_UAXh6w?usp=sharing)     |
-| Adversarial  | [Link](https://drive.google.com/drive/folders/1m_LbKfv_UJOzhvfFMWDStE9l53bQJ5HX?usp=sharing)     |
+| Original     | [Link]()     |
+| Class Name   | [Link]()     |
+| BLiP Caption |  [Link]()    |
+| Color        | [Link]()     |
+| Texture      | [Link]()     |
+| Adversarial  | [Link]()     |
 
 </td>
 
@@ -131,22 +131,22 @@ If you want to use a prompt and the class name together, pass the `--prompt` arg
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](https://drive.google.com/drive/folders/1yHAPUZ3qyxQM_TRrAdUGx3Vkvd9bWxF5?usp=sharing)     |
-| BLiP Caption | [Link](https://drive.google.com/drive/folders/1AI_rAwszy_3WiXc0O7WRz1aecthcTfVy?usp=sharing)     |
-| Color        | [Link](https://drive.google.com/drive/folders/1XLMk2ewzZh59mTovpwzIMpzuBIsW4uej?usp=sharing)     |
-| Texture      |  [Link](https://drive.google.com/drive/folders/1OkxgED2pGEGDZ7c-3CA_j5GUAfoT7yiL?usp=sharing)    |
-| Adversarial  | [Link](https://drive.google.com/drive/folders/1A-43BlPSs3cV97Adczv74AJaPJScuj15?usp=sharing)     |
+| Original     | [Link]()     |
+| BLiP Caption | [Link]()     |
+| Color        | [Link]()     |
+| Texture      |  [Link]()    |
+| Adversarial  | [Link]()     |
 
 </td>
 <td>
 
 | Category     | Link |
 |:-------------|:----:|
-| Original     | [Link](https://drive.google.com/drive/folders/1p-ZXRXB4a92P0cUfZwGMu6L192as5BZZ?usp=sharing)     |
-| BLiP Caption | [Link](https://drive.google.com/drive/folders/1IpAcP7-oi_Eb67WlotxiyzzJLx-1-Zxm?usp=sharing)     |
-| Color        | [Link](https://drive.google.com/drive/folders/1u3-apoz-leI-xowGeZpQVUuoORMVPFRU?usp=sharing)     |
-| Texture      | [Link](https://drive.google.com/drive/folders/12nmZCNv9Rsa_9zD5N08rm5NMo40XoqUz?usp=sharing)     |
-| Adversarial  | [Link](https://drive.google.com/drive/folders/1w6D7rVEvejlrkfY61IXmlYkUPiYLJcr2?usp=sharing)     |
+| Original     | [Link]()     |
+| BLiP Caption | [Link]()     |
+| Color        | [Link]()     |
+| Texture      | [Link]()     |
+| Adversarial  | [Link]()     |
 
 </td>
 </tr>
