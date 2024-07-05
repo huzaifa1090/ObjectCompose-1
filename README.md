@@ -68,6 +68,9 @@ python obj_compose.py --dataset imagenet --data_path </path/to/image/folder> --s
 ```
 This would generate the new dataset in the ImageNet format and save it in the save_dir. `background_change` can be set to `caption`, `class_name`, `prompt`
 
+**Demo:**
+To run on the demo dataset, just update the --data_path to "/demo-sample"
+
 **For Adversarial Background Generation, run the following command**
 ```
 python obj_compose_adv.py --dataset <imagenet or coco> --data_path </path/to/image/folder> --save_dir </path/to/save/generated/dataset> --diffusion_steps <> --start_step <> --background_change <>  --attack_type <>
